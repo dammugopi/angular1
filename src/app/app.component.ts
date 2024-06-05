@@ -6,5 +6,32 @@ import { Component } from '@angular/core';
   styleUrl: './app.component.css'
 })
 export class AppComponent {
-  title = 'resume';
+
+
+
+   imagelink:string='';
+   namelink:string='';
+
+   emaillink:string='';
+   phonelink:string='';
+
+   url=''
+   name=''
+   email=''
+   phoneno=''
+
+
+
+   submit(){
+    this.url=this.imagelink
+    this.name=this.namelink
+    this.phoneno=this.phonelink
+    this.email=this.emaillink
+
+    
+
+   }
+ 
+
+
 }

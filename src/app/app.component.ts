@@ -12,7 +12,7 @@ export class AppComponent {
    imagelink:string='';
    namelink:string='';
 
-   emaillink:string='';
+   emaillink:XXXXXXX
    phonelink:string='';
 
    url=''
